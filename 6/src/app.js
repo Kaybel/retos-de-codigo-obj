@@ -26,8 +26,9 @@ Valor de retorno de la función (salida):
 */
 
 function transformFirstAndLast(obj, array) {
-  for(let i = 0; i < array.length; i++){
-      newObject[array[i][0]] = array[i][-1];
-  }
-  return newObject;
+  let first = [array[0]];
+  let last = array.pop();
+  let arr = {};
+  arr[first] = last;
+  return arr;
 }

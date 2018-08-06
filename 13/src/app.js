@@ -14,3 +14,4 @@ var obj = {
 var output = getProductOfAllElementsAtProperty(obj, 'key');
 console.log(output); // -> 24
 */
+

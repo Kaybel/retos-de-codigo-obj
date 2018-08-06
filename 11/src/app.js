@@ -21,3 +21,13 @@ Por ejemplo, también debería ser capaz de manejar esto, o cualquier otro objet
   weight: 45
 }
 */
+
+function convertObjectToList(arr, obj) {
+  const num;
+  const obj2 = [];
+  for (let property in object) {
+    if (object[property] < num) {
+      Obj2[property] = object[property];
+    }
+  }
+}

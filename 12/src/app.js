@@ -14,3 +14,15 @@ var obj = {
 var output = getSumOfAllElementsAtProperty(obj, 'key');
 console.log(output); // -> 13
 */
+
+function getSumOfAllElementsAtProperty() {
+  var obj = {
+    key: [4, 1, 8]
+  }
+  for (let key in obj) {
+    for (let i = 0; i < arr.length; i++) {
+      let sum = 0;
+      sum += arr[i];
+    }
+  }
+}
