@@ -29,5 +29,5 @@ Valor de retorno de la función (salida):
 let newObj = {};
 
 function getAllKeys(obj) {
-  newObj.push(Object.keys(obj));
+  newObj = Object.keys(obj);
 }

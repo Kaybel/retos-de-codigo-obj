@@ -29,13 +29,13 @@ if (firstName === 'Joe') {
 let name = prompt('Cuál es tu nombre?');
 
 function greetCustomer() {
-  for(let i = 0; i < customerData.length; i++){
-    
-  } if (Object.values(customerData) === name) {
-    console.log('Welcome back, ' + name + ' Were glad you liked us the first time!');
-  } else if (Object.values(customerData) === name) {
-    console.log('Welcome back, ' + name + ' So glad to see you again!');
-  } else {
-    console.log('Welcome! Is this your first time?');
+  for (name in obj) {
+    if (Object.values(customerData.name) === name) {
+      console.log('Welcome back, ' + name + ' Were glad you liked us the first time!');
+    } else if (Object.values(customerData.name) === name) {
+      console.log('Welcome back, ' + name + ' So glad to see you again!');
+    } else {
+      console.log('Welcome! Is this your first time?');
+    }
   }
 }
