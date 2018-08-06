@@ -13,3 +13,14 @@ var obj = {
 removeStringValuesLongerThan(6, obj);
 console.log(obj); // { age: 20, location: 'Texas' }
 */
+
+function removeStringValuesLongerThan(num, obj) {
+  let newObj = {};
+  
+  for(let i = 0; i < obj.length; i++){
+    if(obj[i] < num){
+      newObj.push(obj[i]);
+    }
+  }
+  return newObj;
+}

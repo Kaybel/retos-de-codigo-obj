@@ -12,3 +12,12 @@ var myArray = [1, 3];
 addArrayProperty(myObj, myStr, myArray);
 console.log(myObj.myProperty); // --> [1, 3]
 */
+function addArrayProperty(obj, key, array) {
+  let myObj = {};
+  let myStr = 'myProperty';
+  let myArray = [1, 3];
+
+  myObj[myStr];
+  myObj.myStr = [myArray];
+
+}

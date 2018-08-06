@@ -7,3 +7,10 @@ const output = objectPropertiesCounter({ 'name': 'John', 'lastname': 'Doe' });
 
 console.log(ouput); // -> 2
 */
+
+const output = {  
+  'name': 'John', 
+  'lastname': 'Doe'
+};
+
+Object.keys(output).length;
