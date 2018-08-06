@@ -23,3 +23,11 @@ Valor de retorno de la función (salida):
 
 ['a', 11, true, 1]
 */
+
+function listAllValues(obj){
+  let arr = [];
+
+  for(let i = 0; i < obj.length; i++){
+    arr.push(Object.values(obj));
+  }
+}

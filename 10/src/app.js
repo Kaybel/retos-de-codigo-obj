@@ -21,3 +21,11 @@ Tenga en cuenta que la entrada puede tener un número diferente de filas o clave
 
 Por ejemplo, digamos que el departamento de recursos humanos agrega un campo "tshirtSize" a cada registro de empleado. Su código debería acomodarse de manera flexible.
 */
+
+function transformEmployeeData(arr, obj) {
+  let arr = {};
+
+  for(let i = 0; i < arr.length; i++){
+    
+  }
+}

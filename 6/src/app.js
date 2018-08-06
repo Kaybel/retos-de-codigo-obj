@@ -24,3 +24,10 @@ Valor de retorno de la función (salida):
   Kevin: "Spacey"
 }
 */
+
+function transformFirstAndLast(obj, array) {
+  for(let i = 0; i < array.length; i++){
+      newObject[array[i][0]] = array[i][-1];
+  }
+  return newObject;
+}

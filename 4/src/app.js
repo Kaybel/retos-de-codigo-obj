@@ -19,10 +19,7 @@ console.log(output); // --> 'Jamil'
 */
 
 function getElementOfArrayProperty(obj, key, num){
-  let obj = {
-    key: ['jamil', 'albrey']
-  }
-
+  
   for (let i = 0; i < obj.length; i++){
     if(obj.length === 0 || obj[i] < num || Array.isArray(obj.key) === false|| Object.keys(obj).length === 0){
       return undefined;

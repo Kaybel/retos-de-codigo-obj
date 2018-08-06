@@ -26,3 +26,8 @@ Valor de retorno de la función (salida):
 ['a', 'number', 'hungry', 'grammyWins']
 
 */
+let newObj = {};
+
+function getAllKeys(obj) {
+  newObj.push(Object.keys(obj));
+}
