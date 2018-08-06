@@ -14,3 +14,16 @@ var person2 = {
 addObjectProperty(person1, 'manager', person2);
 console.log(person1.manager); // --> { name: 'Mr. Burns', role: 'supervisor' }
 */
+
+function addObjectProperty(){
+  let obj1 = {
+    name: 'Joe Blow',
+    role: 'schlub'
+  };
+  let obj2 = {
+    name: 'Mr. Burns',
+    role: 'supervisor'
+  };
+  
+  obj1.manager = obj2;
+}

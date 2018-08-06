@@ -10,3 +10,8 @@ var person = {
 addFullNameProperty(person);
 console.log(person.fullName); // --> 'Jade Smith'
 */
+
+function addFullNameProperty (obj) {
+  let fullName = '';
+  fullName += Object.values(obj);
+}
