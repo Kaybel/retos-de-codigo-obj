@@ -13,4 +13,4 @@ const output = {
   'lastname': 'Doe'
 };
 
-Object.keys(output).length;
+Object.key(output).length;

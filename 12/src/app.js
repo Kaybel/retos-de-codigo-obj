@@ -16,13 +16,11 @@ console.log(output); // -> 13
 */
 
 function getSumOfAllElementsAtProperty() {
-  var obj = {
-    key: [4, 1, 8]
+
+  if (Array.isArray(Object.keys(obj)) === false || array.length === 0 || obj.key[i] === 0) {
+    return 0;
+  } for (let i = 0; i < arr.length; i++) {
+    let sum = 0;
+    sum += arr[i];
   }
-  for (let key in obj) {
-    for (let i = 0; i < arr.length; i++) {
-      let sum = 0;
-      sum += arr[i];
-    }
-  }
-}
+};
